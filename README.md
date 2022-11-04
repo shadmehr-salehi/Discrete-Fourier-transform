@@ -1,2 +1,2 @@
 # Discrete-Fourier-transform
-Discrete Fourier transform in python
+Discrete Fourier transform written in python
