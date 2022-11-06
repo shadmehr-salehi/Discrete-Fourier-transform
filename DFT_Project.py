@@ -26,10 +26,11 @@ for i in range(0,n):
     #lets create our Ws in here to
     arr_Ws.append(Ws(i,n)) 
 
+#making the DFT Work.
 for i in range(0,n):
     for j in range(0,n):
         arr_temp =[0] * n
-        arr_temp[j] =  arr_input[j] * arr_Ws[i]
+        arr_temp[j] =  arr_input[j] * (arr_Ws[i])**j
     arr_ans[i] = sum(arr_temp)
 
 print(arr_ans)
